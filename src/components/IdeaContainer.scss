@@ -1,0 +1,28 @@
+.IdeaContainer {
+    --font-family: 'Courier New', Arial, Courier, monospace;
+
+    &-emptyState {
+        display: flex;
+        flex-direction: column;
+        font-family: inherit;
+        height: 40vh;
+        width: 40vw;
+    }
+
+    &-formControl {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: .5rem 0;
+    }
+
+    &-createIdea {
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+    &-title,
+    &-description {
+        font-family: var(--font-family);
+    }
+}
